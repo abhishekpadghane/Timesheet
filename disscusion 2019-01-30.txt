@@ -1,0 +1,19 @@
+Date: 2019-01-30
+
+Topic: Building prediction model for combined data of both machine.
+
+Synopsis: Now we have samples of day which are buckets that were created in data exploration of system health and data file
+	, we are ready to perform prediction on combined data. Combined data consists of event info, output count and 
+	automation time from PAM data files of both the machines.
+
+Requirements: 	1: Bucket data of both files.
+		2: output data from output file.
+		3: automation info from system health file.
+
+Methodology:	1: Need to make dataset in form of percentile buckets.
+		2: Values will be picked considering percentile ranges or ranks.
+		3: Prediction algorithm will be used on those values to predict required outcomes.
+
+Current status: Combined data created by joining bucket data and output count data.
+
+Further procedure: Working on percentile bucket creation. 
