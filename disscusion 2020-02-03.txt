@@ -1,0 +1,19 @@
+Date: 2019-02-03
+
+Topic: Building prediction model for combined data of both machine.
+
+Synopsis: Now i have percentile bucket data in which i have considered values less than 80
+		percent. I have also done feature engineering on data and created more 
+		variables.
+
+Requirements: 	1: Percentile bucket contains values less than.
+		2: Checked accuracy of models.
+
+Methodology:	1: Made train-test split by taking 70:30 train test ration.
+		2: Apllied random forest regressor and SVR models on datasets.
+		3: Checked model accuracy.
+
+Current status: Predictive model is applied on data.
+
+Further procedure: Working on scaling training data, finding best hyperparameters and
+		applying KNN regressor to the data. 
