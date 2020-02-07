@@ -1,0 +1,23 @@
+Date: 2019-02-07
+
+Topic: Building predictive model for PAM machine data.
+
+Synopsis: As discussed, if more data is provided than finding relationship of variables
+	will make sense. Prediction need to done on hourly basis considering input factors.
+	output also need to be generic, not machine oriented because it may show some
+	biased relation with respect to machine.
+
+Requirements: 	1: Atleast 1 year data for understanding better relationship.
+		2: More research on predicting results on hourly basis for a given day. 
+
+Methodology:	1: Combining data in meaningful way.
+		2: Finding relation of variables.
+		3: Drawing some statistical conclusions.
+		4: Building different models.
+		5: Verifying model accuracy.
+		6: Deploying selected model for predictions.
+
+Current status: Observation, summary and analysis is done on provided data.
+
+Further procedure: Working on finding documents, posts or articles related to hourly
+		basis prediction results.
