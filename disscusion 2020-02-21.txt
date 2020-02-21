@@ -1,0 +1,19 @@
+Date: 2019-02-21
+
+Topic: Sample model deployement for production.
+
+Synopsis: As discussed, now ML lyfecycle should be demostrated for better understanding
+	of project. For that model will be deployed in django and accessed to get
+	the predictions.
+
+Requirements: 	1: Pickled or generalized model
+		2: Django framework
+		3: Rest API framework
+
+Methodology:	1: Pickle sample ML model
+		2: Make django web server which serves as API server
+		3: Writing test API call to server which will give predicted results
+
+Current status: Model is pickled and saved properly. Working on building django-rest API
+
+Further procedure: Developing API server for actual procedure
