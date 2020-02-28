@@ -1,10 +1,8 @@
-Date: 2019-02-21
+Date: 2019-02-28
 
-Topic: Sample model deployement for production.
+Topic: Build predictive model on given new data.
 
-Synopsis: As discussed, now ML lyfecycle should be demostrated for better understanding
-	of project. For that model will be deployed in django and accessed to get
-	the predictions.
+Synopsis: As discussed, .
 
 Requirements: 	1: Pickled or generalized model
 		2: Django framework

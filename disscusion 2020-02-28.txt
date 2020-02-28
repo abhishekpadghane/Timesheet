@@ -1,0 +1,15 @@
+Date: 2019-02-28
+
+Topic: Build predictive model on given new data.
+
+Synopsis: As discussed, new data is been provided and some modifications in procedure are also told.
+
+Requirements: 	1: Prediction for failure counts which is required for estimating producing units.
+
+Methodology:	1: Applying ML procedure of new data.
+		2: Make django web server which serves as API server.
+		3: Writing test API call to server which will give predicted results.
+
+Current status: Working on ML procedure for new data.
+
+Further procedure: Generating prediction.
